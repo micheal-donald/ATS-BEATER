@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume</title>
+</head>
+<body>
+    <h1>{{ data.name }}</h1>
+    <p>{{ data.address }}</p>
+    <p>{{ data.phone }}</p>
+    <p>{{ data.email }}</p>
+
+    <h2>Objective</h2>
+    <p>{{ data.objective }}</p>
+
+    <h2>Education</h2>
+    <ul>
+        {% for education in data.education %}
+        <li>{{ education.degree }} in {{ education.field }} from {{ education.institution }} ({{ education.graduation_date }})</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Work Experience</h2>
+    <ul>
+        {% for work in data.work_experience %}
+        <li>
+            <h3>{{ work.title }}</h3>
+            <p>{{ work.company }} ({{ work.dates }})</p>
+            <ul>
+                {% for duty in work.duties %}
+                <li>{{ duty }}</li>
+                {% endfor %}
+            </ul>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <h2>Skills</h2>
+    <ul>
+        {% for skill in data.skills %}
+        <li>{{ skill }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Certifications</h2>
+    <ul>
+        {% for certification in data.certifications %}
+        <li>{{ certification.name }} from {{ certification.issuing_organization }} ({{ certification.date }})</li>
+        {% endfor %}
+    </ul>
+
+    <h2>References</h2>
+    <p>{{ data.references }}</p>
+</body>
+</html>

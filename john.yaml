@@ -1,0 +1,49 @@
+name: John Doe
+address: 123 Main Street
+phone: 555-555-5555
+email: johndoe@email.com
+
+objective: To obtain a software engineering position that utilizes my skills and experience in developing and maintaining software applications.
+
+education:
+  - institution: University of California, Los Angeles
+    degree: Bachelor of Science
+    field: Computer Science
+    graduation_date: May 2020
+  - institution: Stanford University
+    degree: Master of Science
+    field: Computer Science
+    graduation_date: May 2022
+
+work_experience:
+  - title: Software Engineer
+    company: Google
+    dates: August 2022 - Present
+    duties:
+      - Designed and developed new features for Google search engine
+      - Collaborated with team members to improve performance and scalability of software systems
+      - Conducted code reviews and implemented best practices to ensure code quality
+  - title: Software Engineer Intern
+    company: Facebook
+    dates: June 2021 - August 2021
+    duties:
+      - Assisted in developing and testing new features for Facebook app
+      - Worked with cross-functional teams to resolve issues and improve user experience
+      - Contributed to code reviews and collaborated with senior engineers to improve software development processes
+
+skills:
+  - Java
+  - Python
+  - C++
+  - Agile methodology
+  - Git
+
+certifications:
+  - name: Certified Java Developer
+    issuing_organization: Oracle
+    date: January 2023
+  - name: Certified Scrum Master
+    issuing_organization: Scrum Alliance
+    date: December 2022
+
+references: Available upon request

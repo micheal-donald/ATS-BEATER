@@ -1,0 +1,48 @@
+name: [Your Name]
+address: [Your Address]
+phone: [Your Phone Number]
+email: [Your Email Address]
+LinkedIn: [www.linkedin.com/in/johndoe]
+
+objective: [Insert objective statement here]
+
+education:
+  - institution: [Name of Institution]
+    degree: [Degree]
+    field: [Field of Study]
+    graduation_date: [Graduation Date]
+  - institution: [Name of Institution]
+    degree: [Degree]
+    field: [Field of Study]
+    graduation_date: [Graduation Date]
+
+work_experience:
+  - title: [Job Title]
+    company: [Name of Company]
+    dates: [Dates of Employment]
+    duties:
+      - [Job Duty/Responsibility 1]
+      - [Job Duty/Responsibility 2]
+      - [Job Duty/Responsibility 3]
+  - title: [Job Title]
+    company: [Name of Company]
+    dates: [Dates of Employment]
+    duties:
+      - [Job Duty/Responsibility 1]
+      - [Job Duty/Responsibility 2]
+      - [Job Duty/Responsibility 3]
+
+skills:
+  - [Skill 1]
+  - [Skill 2]
+  - [Skill 3]
+
+certifications:
+  - name: [Certification 1]
+    issuing_organization: [Issuing Organization]
+    date: [Date]
+  - name: [Certification 2]
+    issuing_organization: [Issuing Organization]
+    date: [Date]
+
+references: Available upon request
